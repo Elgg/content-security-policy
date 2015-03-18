@@ -1,5 +1,11 @@
 # Content Security Policy (CSP) support for PHP
 
+Installation:
+
+```
+composer require elgg/content-security-policy
+```
+
 Example usage:
 
 ```php
@@ -34,4 +40,3 @@ Elgg\ContentSecurityPolicy\Policy
  [x] Can be stringified into standard csp format
  [x] The default policy value allows nothing
 ```
-
