@@ -1,0 +1,7 @@
+.*
+
+!.gitignore
+!.travis.yml
+
+/vendor/
+composer.lock
