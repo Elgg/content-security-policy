@@ -1,0 +1,26 @@
+{
+    "name": "elgg/content-security-policy",
+    "description": "An immutable content-security-policy (csp) object for PHP",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elgg\\ContentSecurityPolicy\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit tests",
+        "testdox": "phpunit --testdox tests"
+    },
+    "authors": [
+        {
+            "name": "Evan Winslow",
+            "email": "evan@elgg.org"
+        }
+    ],
+    "require": {
+        "myclabs/php-enum": "~1.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    }
+}
